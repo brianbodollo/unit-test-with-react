@@ -11,7 +11,7 @@ var Button = React.createClass({
 
   render: function() {
     return (
-      <button onClick={this.handleClick}>I&#39;am motherfucking button</button>
+      <button onClick={this.handleClick}>button</button>
     );
   }
 });
