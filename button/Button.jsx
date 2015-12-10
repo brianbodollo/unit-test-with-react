@@ -6,7 +6,6 @@ var Button = React.createClass({
   },
 
   handleClick: function() {
-    console.log("i was fucking clicked");
     this.setState({liked: !this.state.liked });
   },
 
